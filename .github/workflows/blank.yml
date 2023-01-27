@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - run: curl sonarcloud.io -v
+      - run: curl https://sonarcloud.io -v
